@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:hint="@string/to"
+        android:gravity="top"/>
+
+    <EditText
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:hint="@string/subject"
+        android:gravity="top"/>
+
+    <EditText
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:hint="@string/message"
+        android:gravity="top"/>
+
+    <Button
+        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/send"
+        android:layout_gravity="end"/>
+
+</LinearLayout>
